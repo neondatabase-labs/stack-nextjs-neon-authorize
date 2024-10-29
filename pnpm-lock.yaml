@@ -33,8 +33,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       drizzle-orm:
-        specifier: ^0.33.0-8944ef1
-        version: 0.33.0(@neondatabase/serverless@0.10.1)(@types/pg@8.11.6)(@types/react@18.3.11)(bun-types@1.1.30)(mysql2@3.11.3)(postgres@3.4.4)(react@18.3.1)
+        specifier: ^0.34.1-a5ec472
+        version: 0.34.1(@neondatabase/serverless@0.10.1)(@types/pg@8.11.6)(@types/react@18.3.11)(bun-types@1.1.30)(mysql2@3.11.3)(postgres@3.4.4)(react@18.3.1)
       mysql2:
         specifier: ^3.11.3
         version: 3.11.3
@@ -73,8 +73,8 @@ importers:
         specifier: ^16.4.5
         version: 16.4.5
       drizzle-kit:
-        specifier: ^0.24.2-2475c4f
-        version: 0.24.2
+        specifier: ^0.25.0-a5ec472
+        version: 0.25.0
       eslint-config-next:
         specifier: 14.2.15
         version: 14.2.15(eslint@8.57.1)(typescript@5.6.3)
@@ -2287,17 +2287,17 @@ packages:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
 
-  drizzle-kit@0.24.2:
-    resolution: {integrity: sha512-nXOaTSFiuIaTMhS8WJC2d4EBeIcN9OSt2A2cyFbQYBAZbi7lRsVGJNqDpEwPqYfJz38yxbY/UtbvBBahBfnExQ==}
+  drizzle-kit@0.25.0:
+    resolution: {integrity: sha512-Rcf0nYCAKizwjWQCY+d3zytyuTbDb81NcaPor+8NebESlUz1+9W3uGl0+r9FhU4Qal5Zv9j/7neXCSCe7DHzjA==}
     hasBin: true
 
-  drizzle-orm@0.33.0:
-    resolution: {integrity: sha512-SHy72R2Rdkz0LEq0PSG/IdvnT3nGiWuRk+2tXZQ90GVq/XQhpCzu/EFT3V2rox+w8MlkBQxifF8pCStNYnERfA==}
+  drizzle-orm@0.34.1:
+    resolution: {integrity: sha512-t+zCwyWWt8xTqtYV4doE/xYmT7hpv1L8pQ66zddEz+3VWyedBBtctjMAp22mAJPfyWurRQXUJ1nrTtqLq+DqNA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=3'
       '@electric-sql/pglite': '>=0.1.1'
-      '@libsql/client': '*'
+      '@libsql/client': '>=0.10.0'
       '@neondatabase/serverless': '>=0.1'
       '@op-engineering/op-sqlite': '>=2'
       '@opentelemetry/api': ^1.4.1
@@ -2386,8 +2386,8 @@ packages:
   electron-to-chromium@1.5.36:
     resolution: {integrity: sha512-HYTX8tKge/VNp6FGO+f/uVDmUkq+cEfcxYhKf15Akc4M5yxt5YmorwlAitKWjWhWQnKcDRBAQKXkhqqXMqcrjw==}
 
-  elliptic@6.5.7:
-    resolution: {integrity: sha512-ESVCtTwiA+XhY3wyh24QqRGBoP3rEdDUl3EDUUo9tft074fi19IrdpH7hLCMMP3CIj7jb3W96rn8lt/BqIlt5Q==}
+  elliptic@6.6.0:
+    resolution: {integrity: sha512-dpwoQcLc/2WLQvJvLRHKZ+f9FgOdjnq11rurqwekGQygGPsYSK29OMMD2WalatiqQ+XGFDglTNixpPfI+lpaAA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -5500,7 +5500,7 @@ snapshots:
     dependencies:
       '@stackframe/stack-sc': 2.6.8(next@14.2.15(@babel/core@7.25.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       bcrypt: 5.1.1
-      elliptic: 6.5.7
+      elliptic: 6.6.0
       jose: 5.9.4
       oauth4webapi: 2.17.0
       semver: 7.6.3
@@ -6185,7 +6185,7 @@ snapshots:
 
   dotenv@16.4.5: {}
 
-  drizzle-kit@0.24.2:
+  drizzle-kit@0.25.0:
     dependencies:
       '@drizzle-team/brocli': 0.10.1
       '@esbuild-kit/esm-loader': 2.6.5
@@ -6194,7 +6194,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.33.0(@neondatabase/serverless@0.10.1)(@types/pg@8.11.6)(@types/react@18.3.11)(bun-types@1.1.30)(mysql2@3.11.3)(postgres@3.4.4)(react@18.3.1):
+  drizzle-orm@0.34.1(@neondatabase/serverless@0.10.1)(@types/pg@8.11.6)(@types/react@18.3.11)(bun-types@1.1.30)(mysql2@3.11.3)(postgres@3.4.4)(react@18.3.1):
     optionalDependencies:
       '@neondatabase/serverless': 0.10.1
       '@types/pg': 8.11.6
@@ -6208,7 +6208,7 @@ snapshots:
 
   electron-to-chromium@1.5.36: {}
 
-  elliptic@6.5.7:
+  elliptic@6.6.0:
     dependencies:
       bn.js: 4.12.0
       brorand: 1.1.0

@@ -23,7 +23,6 @@ export async function fetchWithDrizzle<T>(
     neon(process.env.DATABASE_AUTHENTICATED_URL!, {
       authToken: async () => {
         const token = (await user?.getAuthJson())?.accessToken;
-        console.log("authToken", token);
         if (!token) {
           throw new Error("No token");
         }

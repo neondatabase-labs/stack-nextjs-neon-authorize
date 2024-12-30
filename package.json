@@ -12,7 +12,7 @@
     "drizzle:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^0.10.1",
+    "@neondatabase/serverless": "^0.10.4",
     "@stackframe/stack": "^2.6.8",
     "@types/node": "^20.11.0",
     "@types/react": "^18.2.47",
@@ -20,7 +20,7 @@
     "@types/react-syntax-highlighter": "^15.5.11",
     "autoprefixer": "^10.4.16",
     "clsx": "^2.1.1",
-    "drizzle-orm": "^0.34.1-a5ec472",
+    "drizzle-orm": "^0.38.2",
     "mysql2": "^3.11.3",
     "next": "^14.2.3",
     "postcss": "^8.4.33",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "bun-types": "^1.1.29",
     "dotenv": "^16.4.5",
-    "drizzle-kit": "^0.25.0-a5ec472",
+    "drizzle-kit": "^0.30.1",
     "eslint-config-next": "14.2.15",
     "postgres": "^3.4.4"
   }
